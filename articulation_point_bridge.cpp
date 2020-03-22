@@ -1,5 +1,4 @@
 // find the articulation point and bridge O(m+n)
-// thanks william fiset articulation points youtube
 //  input  
 /*9 10
 0 1
@@ -20,7 +19,6 @@
 //
 //
 //
-// two point to remember
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long int
