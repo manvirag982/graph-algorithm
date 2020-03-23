@@ -71,7 +71,7 @@ outputCopy
 7 1
 */
 
-
+//  this is only the algorithm not the solution of above question
 // strongly connected component ....kosaraju's algorithm...O(v+e)..
 // step 1...prepare stack (its actually topology of SSCs
 // step 2.. tranpose the graph....reverse the direction
