@@ -67,7 +67,7 @@ void dfs(int i,int p){
     if(!visi[x])
      {  dfs(x,i);
         low[i]=min(low[i],low[x]);
-       if(low[x]>ids[i])            // may also be low[x]>low[i]
+       if(low[x]>ids[i])            
        {     
            ap.insert(i);
            ap.insert(x);
@@ -75,7 +75,7 @@ void dfs(int i,int p){
         }
     }
     else
-      low[i]=min(low[i],ids[x]);   // may also be low[i]=min(low[i],low[x])
+      low[i]=min(low[i],ids[x]);   
    }
 
 }
